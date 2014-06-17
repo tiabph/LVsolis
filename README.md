@@ -1,4 +1,4 @@
 LVsolis
 =======
 
-labview version of solis1
+labview version of solis
