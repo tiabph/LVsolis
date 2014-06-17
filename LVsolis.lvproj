@@ -11,14 +11,11 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="DDGImage_.VI" Type="VI" URL="../DDGImage_.VI"/>
-		<Item Name="ErrDecoder.vi" Type="VI" URL="../../../LabView/LVsolis/ErrDecoder.vi"/>
-		<Item Name="GetTemperature.vi" Type="VI" URL="/C/Program Files/Andor SOLIS/Drivers/Examples/LabVIEW/System Files/user.lib/atmcd32d.llb/GetTemperature.vi"/>
-		<Item Name="init.vi" Type="VI" URL="../../../LabView/LVsolis/init.vi"/>
-		<Item Name="main.vi" Type="VI" URL="../../../LabView/LVsolis/main.vi"/>
-		<Item Name="path.vi" Type="VI" URL="../../../LabView/LVsolis/path.vi"/>
-		<Item Name="SetEMGainMode.vi" Type="VI" URL="/C/Program Files/Andor SOLIS/Drivers/Examples/LabVIEW/System Files/user.lib/atmcd32d.llb/SetEMGainMode.vi"/>
-		<Item Name="SetFastExtTrigger.vi" Type="VI" URL="/C/Program Files/Andor SOLIS/Drivers/Examples/LabVIEW/System Files/user.lib/atmcd32d.llb/SetFastExtTrigger.vi"/>
-		<Item Name="snap.vi" Type="VI" URL="../../../LabView/LVsolis/snap.vi"/>
+		<Item Name="ErrDecoder.vi" Type="VI" URL="../ErrDecoder.vi"/>
+		<Item Name="init.vi" Type="VI" URL="../init.vi"/>
+		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
+		<Item Name="path.vi" Type="VI" URL="../path.vi"/>
+		<Item Name="snap.vi" Type="VI" URL="../snap.vi"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="AbortAcquisition.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/AbortAcquisition.vi"/>
@@ -72,17 +69,16 @@
 			<Item Name="Atmcd32d.dll" Type="Document" URL="Atmcd32d.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="CoolerOFF.vi" Type="VI" URL="/C/Program Files/Andor SOLIS/Drivers/Examples/LabVIEW/System Files/user.lib/atmcd32d.llb/CoolerOFF.vi"/>
-			<Item Name="CoolerON.vi" Type="VI" URL="/C/Program Files/Andor SOLIS/Drivers/Examples/LabVIEW/System Files/user.lib/atmcd32d.llb/CoolerON.vi"/>
-			<Item Name="EMGainMode_mode typedef.ctl" Type="VI" URL="/C/Program Files/Andor SOLIS/Drivers/Examples/LabVIEW/System Files/user.lib/atmcd32d.llb/EMGainMode_mode typedef.ctl"/>
-			<Item Name="Error Code Handler.vi" Type="VI" URL="/C/Program Files/Andor SOLIS/Drivers/Examples/LabVIEW/System Files/user.lib/atmcd32d_internal/Error Code Handler.vi"/>
-			<Item Name="SetBaselineClamp.vi" Type="VI" URL="/C/Program Files/Andor SOLIS/Drivers/Examples/LabVIEW/System Files/user.lib/atmcd32d.llb/SetBaselineClamp.vi"/>
-			<Item Name="SetEMCCDGain.vi" Type="VI" URL="/C/Program Files/Andor SOLIS/Drivers/Examples/LabVIEW/System Files/user.lib/atmcd32d.llb/SetEMCCDGain.vi"/>
-			<Item Name="SetFrameTransferMode.vi" Type="VI" URL="/C/Program Files/Andor SOLIS/Drivers/Examples/LabVIEW/System Files/user.lib/atmcd32d.llb/SetFrameTransferMode.vi"/>
-			<Item Name="SetShutter.vi" Type="VI" URL="/C/Program Files/Andor SOLIS/Drivers/Examples/LabVIEW/System Files/user.lib/atmcd32d.llb/SetShutter.vi"/>
-			<Item Name="SetTemperature.vi" Type="VI" URL="/C/Program Files/Andor SOLIS/Drivers/Examples/LabVIEW/System Files/user.lib/atmcd32d.llb/SetTemperature.vi"/>
-			<Item Name="Shutter_mode typedef.ctl" Type="VI" URL="/C/Program Files/Andor SOLIS/Drivers/Examples/LabVIEW/System Files/user.lib/atmcd32d.llb/Shutter_mode typedef.ctl"/>
-			<Item Name="Shutter_type typedef.ctl" Type="VI" URL="/C/Program Files/Andor SOLIS/Drivers/Examples/LabVIEW/System Files/user.lib/atmcd32d.llb/Shutter_type typedef.ctl"/>
+			<Item Name="CoolerOFF.vi" Type="VI" URL="/../Program Files/Andor SOLIS/Drivers/Examples/LabVIEW/System Files/user.lib/atmcd32d.llb/CoolerOFF.vi"/>
+			<Item Name="CoolerON.vi" Type="VI" URL="/../Program Files/Andor SOLIS/Drivers/Examples/LabVIEW/System Files/user.lib/atmcd32d.llb/CoolerON.vi"/>
+			<Item Name="GetTemperature.vi" Type="VI" URL="/../Program Files/Andor SOLIS/Drivers/Examples/LabVIEW/System Files/user.lib/atmcd32d.llb/GetTemperature.vi"/>
+			<Item Name="SetBaselineClamp.vi" Type="VI" URL="/../Program Files/Andor SOLIS/Drivers/Examples/LabVIEW/System Files/user.lib/atmcd32d.llb/SetBaselineClamp.vi"/>
+			<Item Name="SetEMCCDGain.vi" Type="VI" URL="/../Program Files/Andor SOLIS/Drivers/Examples/LabVIEW/System Files/user.lib/atmcd32d.llb/SetEMCCDGain.vi"/>
+			<Item Name="SetFrameTransferMode.vi" Type="VI" URL="/../Program Files/Andor SOLIS/Drivers/Examples/LabVIEW/System Files/user.lib/atmcd32d.llb/SetFrameTransferMode.vi"/>
+			<Item Name="SetShutter.vi" Type="VI" URL="/../Program Files/Andor SOLIS/Drivers/Examples/LabVIEW/System Files/user.lib/atmcd32d.llb/SetShutter.vi"/>
+			<Item Name="SetTemperature.vi" Type="VI" URL="/../Program Files/Andor SOLIS/Drivers/Examples/LabVIEW/System Files/user.lib/atmcd32d.llb/SetTemperature.vi"/>
+			<Item Name="Shutter_mode typedef.ctl" Type="VI" URL="/../Program Files/Andor SOLIS/Drivers/Examples/LabVIEW/System Files/user.lib/atmcd32d.llb/Shutter_mode typedef.ctl"/>
+			<Item Name="Shutter_type typedef.ctl" Type="VI" URL="/../Program Files/Andor SOLIS/Drivers/Examples/LabVIEW/System Files/user.lib/atmcd32d.llb/Shutter_type typedef.ctl"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build"/>
 	</Item>
