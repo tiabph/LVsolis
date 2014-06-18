@@ -16,12 +16,15 @@
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="path.vi" Type="VI" URL="../path.vi"/>
 		<Item Name="snap.vi" Type="VI" URL="../snap.vi"/>
+		<Item Name="控件 3.ctl" Type="VI" URL="../控件 3.ctl"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="AbortAcquisition.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/AbortAcquisition.vi"/>
 				<Item Name="AcquisitionMode_mode typedef.ctl" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/AcquisitionMode_mode typedef.ctl"/>
 				<Item Name="Add ECO For DLL.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d_internal.llb/Add ECO For DLL.vi"/>
 				<Item Name="Add ECO For LabVIEW.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d_internal.llb/Add ECO For LabVIEW.vi"/>
+				<Item Name="CoolerOFF.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/CoolerOFF.vi"/>
+				<Item Name="CoolerON.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/CoolerON.vi"/>
 				<Item Name="Error Code Enum typedef.ctl" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/Error Code Enum typedef.ctl"/>
 				<Item Name="Error Code Handler.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d_internal.llb/Error Code Handler.vi"/>
 				<Item Name="Error Code Offset global.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d_internal.llb/Error Code Offset global.vi"/>
@@ -32,27 +35,35 @@
 				<Item Name="GetMostRecentImage.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/GetMostRecentImage.vi"/>
 				<Item Name="GetNumberNewImages.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/GetNumberNewImages.vi"/>
 				<Item Name="GetStatus.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/GetStatus.vi"/>
+				<Item Name="GetTemperature.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/GetTemperature.vi"/>
 				<Item Name="HSSpeed_type typedef.ctl" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/HSSpeed_type typedef.ctl"/>
 				<Item Name="Initialize.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/Initialize.vi"/>
 				<Item Name="Join Strings.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d_internal.llb/Join Strings.vi"/>
 				<Item Name="ReadMode_mode typedef.ctl" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/ReadMode_mode typedef.ctl"/>
 				<Item Name="SetAccumulationCycleTime.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetAccumulationCycleTime.vi"/>
 				<Item Name="SetAcquisitionMode.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetAcquisitionMode.vi"/>
+				<Item Name="SetBaselineClamp.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetBaselineClamp.vi"/>
 				<Item Name="SetDDGGain.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetDDGGain.vi"/>
 				<Item Name="SetDDGGateStep.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetDDGGateStep.vi"/>
 				<Item Name="SetDDGIOC.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetDDGIOC.vi"/>
 				<Item Name="SetDDGIOCFrequency.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetDDGIOCFrequency.vi"/>
 				<Item Name="SetDDGTimes.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetDDGTimes.vi"/>
+				<Item Name="SetEMCCDGain.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetEMCCDGain.vi"/>
 				<Item Name="SetExposureTime.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetExposureTime.vi"/>
+				<Item Name="SetFrameTransferMode.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetFrameTransferMode.vi"/>
 				<Item Name="SetHSSpeed.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetHSSpeed.vi"/>
 				<Item Name="SetImage.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetImage.vi"/>
 				<Item Name="SetKineticCycleTime.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetKineticCycleTime.vi"/>
 				<Item Name="SetNumberAccumulations.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetNumberAccumulations.vi"/>
 				<Item Name="SetNumberKinetics.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetNumberKinetics.vi"/>
 				<Item Name="SetReadMode.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetReadMode.vi"/>
+				<Item Name="SetShutter.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetShutter.vi"/>
 				<Item Name="SetSpool.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetSpool.vi"/>
+				<Item Name="SetTemperature.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetTemperature.vi"/>
 				<Item Name="SetTriggerMode.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetTriggerMode.vi"/>
 				<Item Name="ShutDown.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/ShutDown.vi"/>
+				<Item Name="Shutter_mode typedef.ctl" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/Shutter_mode typedef.ctl"/>
+				<Item Name="Shutter_type typedef.ctl" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/Shutter_type typedef.ctl"/>
 				<Item Name="Spool_method typedef.ctl" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/Spool_method typedef.ctl"/>
 				<Item Name="StartAcquisition.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/StartAcquisition.vi"/>
 				<Item Name="Subtract ECO For DLL.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d_internal.llb/Subtract ECO For DLL.vi"/>
@@ -69,16 +80,6 @@
 			<Item Name="Atmcd32d.dll" Type="Document" URL="Atmcd32d.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="CoolerOFF.vi" Type="VI" URL="/../Program Files/Andor SOLIS/Drivers/Examples/LabVIEW/System Files/user.lib/atmcd32d.llb/CoolerOFF.vi"/>
-			<Item Name="CoolerON.vi" Type="VI" URL="/../Program Files/Andor SOLIS/Drivers/Examples/LabVIEW/System Files/user.lib/atmcd32d.llb/CoolerON.vi"/>
-			<Item Name="GetTemperature.vi" Type="VI" URL="/../Program Files/Andor SOLIS/Drivers/Examples/LabVIEW/System Files/user.lib/atmcd32d.llb/GetTemperature.vi"/>
-			<Item Name="SetBaselineClamp.vi" Type="VI" URL="/../Program Files/Andor SOLIS/Drivers/Examples/LabVIEW/System Files/user.lib/atmcd32d.llb/SetBaselineClamp.vi"/>
-			<Item Name="SetEMCCDGain.vi" Type="VI" URL="/../Program Files/Andor SOLIS/Drivers/Examples/LabVIEW/System Files/user.lib/atmcd32d.llb/SetEMCCDGain.vi"/>
-			<Item Name="SetFrameTransferMode.vi" Type="VI" URL="/../Program Files/Andor SOLIS/Drivers/Examples/LabVIEW/System Files/user.lib/atmcd32d.llb/SetFrameTransferMode.vi"/>
-			<Item Name="SetShutter.vi" Type="VI" URL="/../Program Files/Andor SOLIS/Drivers/Examples/LabVIEW/System Files/user.lib/atmcd32d.llb/SetShutter.vi"/>
-			<Item Name="SetTemperature.vi" Type="VI" URL="/../Program Files/Andor SOLIS/Drivers/Examples/LabVIEW/System Files/user.lib/atmcd32d.llb/SetTemperature.vi"/>
-			<Item Name="Shutter_mode typedef.ctl" Type="VI" URL="/../Program Files/Andor SOLIS/Drivers/Examples/LabVIEW/System Files/user.lib/atmcd32d.llb/Shutter_mode typedef.ctl"/>
-			<Item Name="Shutter_type typedef.ctl" Type="VI" URL="/../Program Files/Andor SOLIS/Drivers/Examples/LabVIEW/System Files/user.lib/atmcd32d.llb/Shutter_type typedef.ctl"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build"/>
 	</Item>
