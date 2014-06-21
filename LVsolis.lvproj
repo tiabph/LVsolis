@@ -12,6 +12,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="DDGImage_.VI" Type="VI" URL="../DDGImage_.VI"/>
 		<Item Name="ErrDecoder.vi" Type="VI" URL="../ErrDecoder.vi"/>
+		<Item Name="gaussian.vi" Type="VI" URL="../gaussian.vi"/>
 		<Item Name="init.vi" Type="VI" URL="../init.vi"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="path.vi" Type="VI" URL="../path.vi"/>
