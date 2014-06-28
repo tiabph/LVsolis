@@ -24,9 +24,11 @@
 			<Item Name="CmdLib.dll" Type="Document" URL="../lib/CmdLib.dll"/>
 		</Item>
 		<Item Name="test" Type="Folder">
+			<Item Name="code2str.vi" Type="VI" URL="../test/code2str.vi"/>
 			<Item Name="ModuleTest.vi" Type="VI" URL="../test/ModuleTest.vi"/>
 			<Item Name="MotorManager.vi" Type="VI" URL="../test/MotorManager.vi"/>
 			<Item Name="NPMManager.vi" Type="VI" URL="../test/NPMManager.vi"/>
+			<Item Name="str2code.vi" Type="VI" URL="../test/str2code.vi"/>
 		</Item>
 		<Item Name="DDGImage_.VI" Type="VI" URL="../DDGImage_.VI"/>
 		<Item Name="ErrDecoder.vi" Type="VI" URL="../ErrDecoder.vi"/>
