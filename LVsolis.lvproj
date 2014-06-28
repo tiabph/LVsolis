@@ -23,12 +23,18 @@
 			<Item Name="8742.vi" Type="VI" URL="../8742.vi"/>
 			<Item Name="CmdLib.dll" Type="Document" URL="../lib/CmdLib.dll"/>
 		</Item>
+		<Item Name="AGUC2" Type="Folder">
+			<Item Name="AG-UC2-scan.vi" Type="VI" URL="../AGUC2/AG-UC2-scan.vi"/>
+			<Item Name="AG-UC2-UC8_Example.vi" Type="VI" URL="../AGUC2/AG-UC2-UC8_Example.vi"/>
+		</Item>
 		<Item Name="test" Type="Folder">
 			<Item Name="code2str.vi" Type="VI" URL="../test/code2str.vi"/>
 			<Item Name="ModuleTest.vi" Type="VI" URL="../test/ModuleTest.vi"/>
 			<Item Name="MotorManager.vi" Type="VI" URL="../test/MotorManager.vi"/>
 			<Item Name="NPMManager.vi" Type="VI" URL="../test/NPMManager.vi"/>
+			<Item Name="NPRManager.vi" Type="VI" URL="../test/NPRManager.vi"/>
 			<Item Name="str2code.vi" Type="VI" URL="../test/str2code.vi"/>
+			<Item Name="ThorlabsManager.vi" Type="VI" URL="../test/ThorlabsManager.vi"/>
 		</Item>
 		<Item Name="DDGImage_.VI" Type="VI" URL="../DDGImage_.VI"/>
 		<Item Name="ErrDecoder.vi" Type="VI" URL="../ErrDecoder.vi"/>
@@ -92,7 +98,6 @@
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
-				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="LVPoint32TypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPoint32TypeDef.ctl"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
@@ -100,10 +105,14 @@
 				<Item Name="RGB to Color.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/RGB to Color.vi"/>
 				<Item Name="subTimeDelay.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/TimeDelayBlock.llb/subTimeDelay.vi"/>
 			</Item>
+			<Item Name="AG-UC2-UC8_Close.vi" Type="VI" URL="../AGUC2/AG-UC2-UC8_Close.vi"/>
+			<Item Name="AG-UC2-UC8_Open.vi" Type="VI" URL="../AGUC2/AG-UC2-UC8_Open.vi"/>
+			<Item Name="AgilisCmdLib.dll" Type="Document" URL="../lib/AgilisCmdLib.dll"/>
 			<Item Name="AppendToOutput.vi" Type="VI" URL="../AppendToOutput.vi"/>
 			<Item Name="Atmcd32d.dll" Type="Document" URL="Atmcd32d.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="ChooseCorrectInstrument.vi" Type="VI" URL="../AGUC2/ChooseCorrectInstrument.vi"/>
 			<Item Name="CmdLib.dll" Type="Document" URL="../CmdLib.dll"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
