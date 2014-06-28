@@ -10,6 +10,24 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="8742" Type="Folder">
+			<Item Name="Command VIs" Type="Folder" URL="../Command VIs">
+				<Property Name="NI.DISK" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Device VIs" Type="Folder" URL="../Device VIs">
+				<Property Name="NI.DISK" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Sample8742UI" Type="Folder" URL="../Sample8742UI">
+				<Property Name="NI.DISK" Type="Bool">true</Property>
+			</Item>
+			<Item Name="8742.vi" Type="VI" URL="../8742.vi"/>
+			<Item Name="CmdLib.dll" Type="Document" URL="../lib/CmdLib.dll"/>
+		</Item>
+		<Item Name="test" Type="Folder">
+			<Item Name="ModuleTest.vi" Type="VI" URL="../test/ModuleTest.vi"/>
+			<Item Name="MotorManager.vi" Type="VI" URL="../test/MotorManager.vi"/>
+			<Item Name="NPMManager.vi" Type="VI" URL="../test/NPMManager.vi"/>
+		</Item>
 		<Item Name="DDGImage_.VI" Type="VI" URL="../DDGImage_.VI"/>
 		<Item Name="ErrDecoder.vi" Type="VI" URL="../ErrDecoder.vi"/>
 		<Item Name="gaussian.vi" Type="VI" URL="../gaussian.vi"/>
@@ -80,9 +98,11 @@
 				<Item Name="RGB to Color.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/RGB to Color.vi"/>
 				<Item Name="subTimeDelay.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/TimeDelayBlock.llb/subTimeDelay.vi"/>
 			</Item>
+			<Item Name="AppendToOutput.vi" Type="VI" URL="../AppendToOutput.vi"/>
 			<Item Name="Atmcd32d.dll" Type="Document" URL="Atmcd32d.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="CmdLib.dll" Type="Document" URL="../CmdLib.dll"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build"/>
