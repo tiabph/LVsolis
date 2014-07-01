@@ -93,7 +93,11 @@
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
+				<Item Name="Check Color Table Size.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Color Table Size.vi"/>
+				<Item Name="Check Data Size.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Data Size.vi"/>
+				<Item Name="Check File Permissions.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check File Permissions.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
+				<Item Name="Check Path.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Path.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
@@ -116,6 +120,7 @@
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
+				<Item Name="Directory of Top Level VI.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Directory of Top Level VI.vi"/>
 				<Item Name="DTbl Digital Size.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Digital Size.vi"/>
 				<Item Name="DU64_U32SubtractWithBorrow.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/DU64_U32SubtractWithBorrow.vi"/>
 				<Item Name="DWDT Digital Size.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Digital Size.vi"/>
@@ -135,10 +140,12 @@
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
 				<Item Name="I128 Timestamp.ctl" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/I128 Timestamp.ctl"/>
+				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
 				<Item Name="Internecine Avoider.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/Internecine Avoider.vi"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVPoint32TypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPoint32TypeDef.ctl"/>
+				<Item Name="Merge Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Merge Errors.vi"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
@@ -175,16 +182,9 @@
 				<Item Name="WDT Number of Waveform Samples SGL.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Number of Waveform Samples SGL.vi"/>
 				<Item Name="WDT Waveform Duration DBL.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Waveform Duration DBL.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+				<Item Name="Write JPEG File(6_1).vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Write JPEG File(6_1).vi"/>
+				<Item Name="Write JPEG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Write JPEG File.vi"/>
 			</Item>
-			<Item Name="#5.vi" Type="VI" URL="../PI/Low Level/Special command.llb/#5.vi"/>
-			<Item Name="#5.vi" Type="VI" URL="../../../iPALM_vi/PI/Low Level/Special command.llb/#5.vi"/>
-			<Item Name="#7.vi" Type="VI" URL="../../../iPALM_vi/PI/Low Level/Special command.llb/#7.vi"/>
-			<Item Name="#9.vi" Type="VI" URL="../PI/Low Level/WaveGenerator.llb/#9.vi"/>
-			<Item Name="#9.vi" Type="VI" URL="../../../iPALM_vi/PI/Low Level/WaveGenerator.llb/#9.vi"/>
-			<Item Name="#24.vi" Type="VI" URL="../PI/Low Level/Special command.llb/#24.vi"/>
-			<Item Name="#24.vi" Type="VI" URL="../../../iPALM_vi/PI/Low Level/Special command.llb/#24.vi"/>
-			<Item Name="*IDN?.vi" Type="VI" URL="../PI/Low Level/General command.llb/*IDN?.vi"/>
-			<Item Name="*IDN?.vi" Type="VI" URL="../../../iPALM_vi/PI/Low Level/General command.llb/*IDN?.vi"/>
 			<Item Name="8742Shutdown.vi" Type="VI" URL="../Device VIs/8742Shutdown.vi"/>
 			<Item Name="AbortMotion.vi" Type="VI" URL="../Command VIs/AbortMotion.vi"/>
 			<Item Name="AbsoluteMove.vi" Type="VI" URL="../Command VIs/AbsoluteMove.vi"/>
@@ -192,122 +192,27 @@
 			<Item Name="AG-UC2-UC8_Open.vi" Type="VI" URL="../AGUC2/AG-UC2-UC8_Open.vi"/>
 			<Item Name="AgilisCmdLib.dll" Type="Document" URL="../AGUC2/AgilisCmdLib.dll"/>
 			<Item Name="AgilisCmdLib.dll" Type="Document" URL="../lib/AgilisCmdLib.dll"/>
-			<Item Name="Analog FGlobal.vi" Type="VI" URL="../../../iPALM_vi/PI/Low Level/Analog control.llb/Analog FGlobal.vi"/>
-			<Item Name="Analog Functions.vi" Type="VI" URL="../../../iPALM_vi/PI/Low Level/Analog control.llb/Analog Functions.vi"/>
-			<Item Name="Analog Receive String.vi" Type="VI" URL="../../../iPALM_vi/PI/Low Level/Analog control.llb/Analog Receive String.vi"/>
-			<Item Name="Analyse input string for terminal.vi" Type="VI" URL="../PI/Low Level/Support.llb/Analyse input string for terminal.vi"/>
-			<Item Name="Assign booleans from string to axes.vi" Type="VI" URL="../../../iPALM_vi/PI/Low Level/Support.llb/Assign booleans from string to axes.vi"/>
-			<Item Name="Assign values from string to axes.vi" Type="VI" URL="../../../iPALM_vi/PI/Low Level/Support.llb/Assign values from string to axes.vi"/>
+			<Item Name="Analog_Configuration_Setup.vi" Type="VI" URL="../PI/Analog_Configuration_Setup.vi"/>
 			<Item Name="Atmcd32d.dll" Type="Document" URL="Atmcd32d.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="ATZ.vi" Type="VI" URL="../PI/Low Level/Limits.llb/ATZ.vi"/>
-			<Item Name="ATZ.vi" Type="VI" URL="../../../iPALM_vi/PI/Low Level/Limits.llb/ATZ.vi"/>
-			<Item Name="ATZ?.vi" Type="VI" URL="../../../iPALM_vi/PI/Low Level/Limits.llb/ATZ?.vi"/>
-			<Item Name="Available Analog Commands.ctl" Type="VI" URL="../../../iPALM_vi/PI/Low Level/Analog control.llb/Available Analog Commands.ctl"/>
-			<Item Name="Available DLL interfaces.ctl" Type="VI" URL="../PI/Low Level/Communication.llb/Available DLL interfaces.ctl"/>
-			<Item Name="Available DLL interfaces.ctl" Type="VI" URL="../../../iPALM_vi/PI/Low Level/Communication.llb/Available DLL interfaces.ctl"/>
-			<Item Name="Available DLLs.ctl" Type="VI" URL="../PI/Low Level/Communication.llb/Available DLLs.ctl"/>
-			<Item Name="Available DLLs.ctl" Type="VI" URL="../../../iPALM_vi/PI/Low Level/Communication.llb/Available DLLs.ctl"/>
-			<Item Name="Available interfaces.ctl" Type="VI" URL="../PI/Low Level/Communication.llb/Available interfaces.ctl"/>
-			<Item Name="Available interfaces.ctl" Type="VI" URL="../../../iPALM_vi/PI/Low Level/Communication.llb/Available interfaces.ctl"/>
-			<Item Name="Build analog value array.vi" Type="VI" URL="../../../iPALM_vi/PI/Low Level/Analog control.llb/Build analog value array.vi"/>
-			<Item Name="Build analog waveform.vi" Type="VI" URL="../../../iPALM_vi/PI/Low Level/Analog control.llb/Build analog waveform.vi"/>
-			<Item Name="Build command substring.vi" Type="VI" URL="../../../iPALM_vi/PI/Low Level/Support.llb/Build command substring.vi"/>
-			<Item Name="Build query command substring.vi" Type="VI" URL="../../../iPALM_vi/PI/Low Level/Support.llb/Build query command substring.vi"/>
 			<Item Name="ChooseCorrectInstrument.vi" Type="VI" URL="../AGUC2/ChooseCorrectInstrument.vi"/>
-			<Item Name="Close connection if open.vi" Type="VI" URL="../PI/Low Level/Communication.llb/Close connection if open.vi"/>
-			<Item Name="Close connection if open.vi" Type="VI" URL="../../../iPALM_vi/PI/Low Level/Communication.llb/Close connection if open.vi"/>
-			<Item Name="Commanded axes connected?.vi" Type="VI" URL="../../../iPALM_vi/PI/Low Level/Support.llb/Commanded axes connected?.vi"/>
-			<Item Name="Controller names.ctl" Type="VI" URL="../PI/Low Level/General command.llb/Controller names.ctl"/>
-			<Item Name="Controller names.ctl" Type="VI" URL="../../../iPALM_vi/PI/Low Level/General command.llb/Controller names.ctl"/>
-			<Item Name="CST?.vi" Type="VI" URL="../PI/Low Level/Special command.llb/CST?.vi"/>
-			<Item Name="CST?.vi" Type="VI" URL="../../../iPALM_vi/PI/Low Level/Special command.llb/CST?.vi"/>
-			<Item Name="Cut out additional spaces.vi" Type="VI" URL="../PI/Low Level/Support.llb/Cut out additional spaces.vi"/>
-			<Item Name="Cut out additional spaces.vi" Type="VI" URL="../../../iPALM_vi/PI/Low Level/Support.llb/Cut out additional spaces.vi"/>
-			<Item Name="Define connected axes.vi" Type="VI" URL="../PI/Low Level/General command.llb/Define connected axes.vi"/>
-			<Item Name="Define connected axes.vi" Type="VI" URL="../../../iPALM_vi/PI/Low Level/General command.llb/Define connected axes.vi"/>
-			<Item Name="Define connected systems (Array).vi" Type="VI" URL="../PI/Low Level/General command.llb/Define connected systems (Array).vi"/>
-			<Item Name="Define connected systems (Array).vi" Type="VI" URL="../../../iPALM_vi/PI/Low Level/General command.llb/Define connected systems (Array).vi"/>
 			<Item Name="DeviceOpen.vi" Type="VI" URL="../Device VIs/DeviceOpen.vi"/>
-			<Item Name="E709_Configuration_Setup.vi" Type="VI" URL="../../../iPALM_vi/PI/E709_Configuration_Setup.vi"/>
-			<Item Name="ERR?.vi" Type="VI" URL="../PI/Low Level/General command.llb/ERR?.vi"/>
-			<Item Name="ERR?.vi" Type="VI" URL="../../../iPALM_vi/PI/Low Level/General command.llb/ERR?.vi"/>
-			<Item Name="GCSTranslateError.vi" Type="VI" URL="../PI/Low Level/Support.llb/GCSTranslateError.vi"/>
-			<Item Name="GCSTranslateError.vi" Type="VI" URL="../../../iPALM_vi/PI/Low Level/Support.llb/GCSTranslateError.vi"/>
-			<Item Name="GCSTranslator DLL Functions.vi" Type="VI" URL="../../../iPALM_vi/PI/Low Level/Communication.llb/GCSTranslator DLL Functions.vi"/>
-			<Item Name="GCSTranslator.dll" Type="Document" URL="../../../iPALM_vi/PI/Low Level/GCSTranslator.dll"/>
-			<Item Name="Get all axes.vi" Type="VI" URL="../../../iPALM_vi/PI/Low Level/Support.llb/Get all axes.vi"/>
-			<Item Name="Get arrays without blanks.vi" Type="VI" URL="../../../iPALM_vi/PI/Low Level/Support.llb/Get arrays without blanks.vi"/>
-			<Item Name="Get lines from string.vi" Type="VI" URL="../../../iPALM_vi/PI/Low Level/Support.llb/Get lines from string.vi"/>
 			<Item Name="GetMasterDeviceAddress.vi" Type="VI" URL="../Device VIs/GetMasterDeviceAddress.vi"/>
 			<Item Name="GetMotionDone.vi" Type="VI" URL="../Command VIs/GetMotionDone.vi"/>
 			<Item Name="GetPosition.vi" Type="VI" URL="../Command VIs/GetPosition.vi"/>
 			<Item Name="GetVelocity.vi" Type="VI" URL="../Command VIs/GetVelocity.vi"/>
-			<Item Name="Global Analog.vi" Type="VI" URL="../../../iPALM_vi/PI/Low Level/Analog control.llb/Global Analog.vi"/>
-			<Item Name="Global DaisyChain.vi" Type="VI" URL="../../../iPALM_vi/PI/Low Level/Communication.llb/Global DaisyChain.vi"/>
-			<Item Name="Global1.vi" Type="VI" URL="../PI/Low Level/Communication.llb/Global1.vi"/>
-			<Item Name="Global1.vi" Type="VI" URL="../../../iPALM_vi/PI/Low Level/Communication.llb/Global1.vi"/>
-			<Item Name="Global2 (Array).vi" Type="VI" URL="../../../iPALM_vi/PI/Low Level/General command.llb/Global2 (Array).vi"/>
-			<Item Name="How often does string contain regular expression?.vi" Type="VI" URL="../PI/Low Level/Support.llb/How often does string contain regular expression?.vi"/>
-			<Item Name="Initialize Global DaisyChain.vi" Type="VI" URL="../PI/Low Level/Communication.llb/Initialize Global DaisyChain.vi"/>
-			<Item Name="Initialize Global DaisyChain.vi" Type="VI" URL="../../../iPALM_vi/PI/Low Level/Communication.llb/Initialize Global DaisyChain.vi"/>
-			<Item Name="Initialize Global1.vi" Type="VI" URL="../PI/Low Level/Communication.llb/Initialize Global1.vi"/>
-			<Item Name="Initialize Global1.vi" Type="VI" URL="../../../iPALM_vi/PI/Low Level/Communication.llb/Initialize Global1.vi"/>
-			<Item Name="Initialize Global2.vi" Type="VI" URL="../PI/Low Level/General command.llb/Initialize Global2.vi"/>
-			<Item Name="Initialize Global2.vi" Type="VI" URL="../../../iPALM_vi/PI/Low Level/General command.llb/Initialize Global2.vi"/>
 			<Item Name="InitSingleDevice.vi" Type="VI" URL="../Device VIs/InitSingleDevice.vi"/>
-			<Item Name="Is DaisyChain open.vi" Type="VI" URL="../../../iPALM_vi/PI/Low Level/Communication.llb/Is DaisyChain open.vi"/>
 			<Item Name="JogNegative.vi" Type="VI" URL="../Command VIs/JogNegative.vi"/>
 			<Item Name="JogPositive.vi" Type="VI" URL="../Command VIs/JogPositive.vi"/>
-			<Item Name="Longlasting one-axis command.vi" Type="VI" URL="../../../iPALM_vi/PI/Low Level/Support.llb/Longlasting one-axis command.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="MOV.vi" Type="VI" URL="../PI/Low Level/General command.llb/MOV.vi"/>
-			<Item Name="MOV.vi" Type="VI" URL="../../../iPALM_vi/PI/Low Level/General command.llb/MOV.vi"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="ONT?.vi" Type="VI" URL="../PI/Low Level/General command.llb/ONT?.vi"/>
-			<Item Name="ONT?.vi" Type="VI" URL="../../../iPALM_vi/PI/Low Level/General command.llb/ONT?.vi"/>
-			<Item Name="PI Ask for Communication Parameters.vi" Type="VI" URL="../PI/Low Level/Communication.llb/PI Ask for Communication Parameters.vi"/>
-			<Item Name="PI Open Interface of one system.vi" Type="VI" URL="../PI/Low Level/Communication.llb/PI Open Interface of one system.vi"/>
-			<Item Name="PI Open Interface of one system.vi" Type="VI" URL="../../../iPALM_vi/PI/Low Level/Communication.llb/PI Open Interface of one system.vi"/>
-			<Item Name="PI Open Interface.vi" Type="VI" URL="../PI/Low Level/Communication.llb/PI Open Interface.vi"/>
-			<Item Name="PI Receive String.vi" Type="VI" URL="../PI/Low Level/Communication.llb/PI Receive String.vi"/>
-			<Item Name="PI Receive String.vi" Type="VI" URL="../../../iPALM_vi/PI/Low Level/Communication.llb/PI Receive String.vi"/>
-			<Item Name="PI Send String.vi" Type="VI" URL="../PI/Low Level/Communication.llb/PI Send String.vi"/>
-			<Item Name="PI VISA Receive Characters.vi" Type="VI" URL="../../../iPALM_vi/PI/Low Level/Communication.llb/PI VISA Receive Characters.vi"/>
-			<Item Name="POS?.vi" Type="VI" URL="../PI/Low Level/General command.llb/POS?.vi"/>
-			<Item Name="POS?.vi" Type="VI" URL="../../../iPALM_vi/PI/Low Level/General command.llb/POS?.vi"/>
 			<Item Name="RelativeMove.vi" Type="VI" URL="../Command VIs/RelativeMove.vi"/>
-			<Item Name="Return space.vi" Type="VI" URL="../../../iPALM_vi/PI/Low Level/Support.llb/Return space.vi"/>
-			<Item Name="SAI?.vi" Type="VI" URL="../../../iPALM_vi/PI/Low Level/General command.llb/SAI?.vi"/>
-			<Item Name="Select USB device.vi" Type="VI" URL="../PI/Low Level/Communication.llb/Select USB device.vi"/>
-			<Item Name="Select USB device.vi" Type="VI" URL="../../../iPALM_vi/PI/Low Level/Communication.llb/Select USB device.vi"/>
-			<Item Name="Select values for chosen axes.vi" Type="VI" URL="../PI/Low Level/Support.llb/Select values for chosen axes.vi"/>
-			<Item Name="Select values for chosen axes.vi" Type="VI" URL="../../../iPALM_vi/PI/Low Level/Support.llb/Select values for chosen axes.vi"/>
 			<Item Name="SetVelocity.vi" Type="VI" URL="../Command VIs/SetVelocity.vi"/>
 			<Item Name="SetZeroPosition.vi" Type="VI" URL="../Command VIs/SetZeroPosition.vi"/>
-			<Item Name="Show_Save_Load_ XY_Data.vi" Type="VI" URL="../Show_Save_Load_ XY_Data.vi"/>
-			<Item Name="STA?.vi" Type="VI" URL="../../../iPALM_vi/PI/Low Level/Special command.llb/STA?.vi"/>
 			<Item Name="StopMotion.vi" Type="VI" URL="../Command VIs/StopMotion.vi"/>
-			<Item Name="String with ASCII code conversion.vi" Type="VI" URL="../../../iPALM_vi/PI/Low Level/Support.llb/String with ASCII code conversion.vi"/>
-			<Item Name="SVO.vi" Type="VI" URL="../PI/Low Level/General command.llb/SVO.vi"/>
-			<Item Name="SVO.vi" Type="VI" URL="../../../iPALM_vi/PI/Low Level/General command.llb/SVO.vi"/>
-			<Item Name="SVO?.vi" Type="VI" URL="../PI/Low Level/General command.llb/SVO?.vi"/>
-			<Item Name="SVO?.vi" Type="VI" URL="../../../iPALM_vi/PI/Low Level/General command.llb/SVO?.vi"/>
-			<Item Name="Termination character.ctl" Type="VI" URL="../PI/Low Level/Communication.llb/Termination character.ctl"/>
-			<Item Name="Termination character.ctl" Type="VI" URL="../../../iPALM_vi/PI/Low Level/Communication.llb/Termination character.ctl"/>
-			<Item Name="TMN?.vi" Type="VI" URL="../PI/Low Level/Limits.llb/TMN?.vi"/>
-			<Item Name="TMN?.vi" Type="VI" URL="../../../iPALM_vi/PI/Low Level/Limits.llb/TMN?.vi"/>
-			<Item Name="TMX?.vi" Type="VI" URL="../PI/Low Level/Limits.llb/TMX?.vi"/>
-			<Item Name="TMX?.vi" Type="VI" URL="../../../iPALM_vi/PI/Low Level/Limits.llb/TMX?.vi"/>
-			<Item Name="TWG?.vi" Type="VI" URL="../../../iPALM_vi/PI/Low Level/WaveGenerator.llb/TWG?.vi"/>
-			<Item Name="Unbunde/bundle interface clusters for PI Terminal.vi" Type="VI" URL="../PI/Low Level/Support.llb/Unbunde/bundle interface clusters for PI Terminal.vi"/>
-			<Item Name="Wait for answer of longlasting command.vi" Type="VI" URL="../../../iPALM_vi/PI/Low Level/Support.llb/Wait for answer of longlasting command.vi"/>
-			<Item Name="Wait for axes to stop.vi" Type="VI" URL="../../../iPALM_vi/PI/Low Level/Support.llb/Wait for axes to stop.vi"/>
-			<Item Name="WGO.vi" Type="VI" URL="../PI/Low Level/WaveGenerator.llb/WGO.vi"/>
-			<Item Name="WGO.vi" Type="VI" URL="../../../iPALM_vi/PI/Low Level/WaveGenerator.llb/WGO.vi"/>
 			<Item Name="winmm.dll" Type="Document" URL="winmm.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
