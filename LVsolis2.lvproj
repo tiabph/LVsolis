@@ -35,6 +35,7 @@
 		<Item Name="init.vi" Type="VI" URL="../init.vi"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="path.vi" Type="VI" URL="../path.vi"/>
+		<Item Name="SendSoftwareTrigger.vi" Type="VI" URL="/C/Program Files/Andor SOLIS/Drivers/Examples/LabVIEW/System Files/user.lib/atmcd32d.llb/SendSoftwareTrigger.vi"/>
 		<Item Name="snap.vi" Type="VI" URL="../snap.vi"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
