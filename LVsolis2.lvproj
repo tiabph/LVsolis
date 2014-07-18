@@ -33,8 +33,6 @@
 		</Item>
 		<Item Name="8742.vi" Type="VI" URL="../8742.vi"/>
 		<Item Name="DDGImage_.VI" Type="VI" URL="../DDGImage_.VI"/>
-		<Item Name="ErrDecoder.vi" Type="VI" URL="../ErrDecoder.vi"/>
-		<Item Name="gaussian.vi" Type="VI" URL="../gaussian.vi"/>
 		<Item Name="init.vi" Type="VI" URL="../init.vi"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="path.vi" Type="VI" URL="../path.vi"/>
@@ -278,6 +276,8 @@
 			</Item>
 			<Item Name="CmdLib.dll" Type="Document" URL="../CmdLib.dll"/>
 			<Item Name="CmdLib.dll" Type="Document" URL="../lib/CmdLib.dll"/>
+			<Item Name="ErrDecoder.vi" Type="VI" URL="../ErrDecoder.vi"/>
+			<Item Name="lm_cpu.dll" Type="Document" URL="../lib/lm_cpu.dll"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
