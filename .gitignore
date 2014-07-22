@@ -215,5 +215,5 @@ pip-log.txt
 .mr.developer.cfg
 
 #labview
-.aliases
-.lvlps
+*.aliases
+#*.lvlps
